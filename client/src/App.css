@@ -1,0 +1,384 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color:   rgb(46,48,47);
+  font-family: 'Poppins', sans-serif;
+}
+.login-btn {
+  border: none;
+  background-color: white;
+}
+.nav-li {
+  list-style-type: none;
+}
+.user-profile {
+  border-radius: 20px;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.counter {
+  position: relative;
+  z-index: 2;
+  right: 4px;
+  bottom: 10px;
+  font-size: 13px;
+  background-color: red;
+  color: white;
+  border-radius: 18px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.nav-li {
+  font-size: 15px;
+}
+.nav-li:hover {
+  color: rgba(33, 37, 41, 0.5);
+
+}
+.fa-user {
+  color: white;
+}
+.line {
+  flex: 1;
+  background-color: black;
+}
+
+.front-page-h1 {
+  position: relative;
+}
+.front-page-h1::before {
+  background-color: black;
+  display: block;
+  width: 290px;
+  height: 2px;
+  content: "";
+  position: absolute;
+  left: 175px;
+  top: 35px;
+  z-index: -1;
+  
+}
+.front-page-h1::after {
+  background-color: black;
+  display: block;
+  width: 290px;
+  height: 2px;
+  content: "";
+  position: absolute;
+  right: 175px;
+  top: 35px;
+  z-index: -1;
+}
+.carousel {
+  height: auto;
+}
+.carousel-img {
+  width: 950px;
+}
+.to-cart-btn {
+  border: 1px solid black;
+  background-color: white;
+  color: rgb(46,48,47);
+  transition: background-color 0.5s;
+}
+
+.to-cart-btn:hover {
+  background-color: rgb(101,124,111);
+  color: white;
+}
+.featured-img1 img, .featured-img2 img, .featured-img3 img {
+  width: 306.02px;
+  height: 389.89px;
+}
+.featured-img1:hover, .featured-img2:hover, .featured-img3:hover {
+  cursor: pointer;
+}
+.shop-all-btn {
+  text-decoration: none;
+  border: 1px solid rgb(46,48,47);
+  color: rgb(46,48,47);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 50px;
+  padding-right: 50px;
+  transition: background-color 0.5s;
+}
+.shop-all-btn:hover{
+  background-color: rgb(101,124,111);
+  color: white;
+}
+.footer-page-h1 {
+  position: relative;
+}
+.footer-page-h1::after {
+  background-color: black;
+  display: block;
+  width: 800px;
+  height: 1px;
+  content: "";
+  position: absolute;
+  right: -850px;
+  top: 38px;
+}
+.footer-life-etc {
+  margin-left: 180px;
+}
+
+.navbar-links {
+  margin-right: 90px;
+}
+.footer{
+  background-color: #E7EEEA;
+}
+.footer-title {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.footer-link {
+  text-decoration: none;
+  color: rgb(46,48,47);
+}
+.signup-input::placeholder {
+  text-align: center;
+}
+.signup-input, .sub-btn {
+  background-color: #E7EEEA;
+  border: 1px solid  rgb(46,48,47);
+}
+.sub-btn {
+  transition: background-color 0.5s;
+}
+.sub-btn:hover {
+  background-color: rgb(101,124,111);
+  color: white;
+}
+.second-page-h1 {
+  position: relative;
+}
+.second-page-h1::before {
+  background-color: black;
+  display: block;
+  width: 300px;
+  height: 2px;
+  content: "";
+  position: absolute;
+  left: 165px;
+  top: 35px;
+  z-index: -1;
+  
+}
+.second-page-h1::after {
+  background-color: black;
+  display: block;
+  width: 300px;
+  height: 2px;
+  content: "";
+  position: absolute;
+  right: 165px;
+  top: 35px;
+  z-index: -1;
+}
+.product-img img {
+  width: 306.02px;
+  height: 389.89px;
+}
+.product-img:hover {
+  cursor: pointer;
+}
+.admin-profile {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+}
+.admin .fa-user {
+  margin-top: 10px;
+}
+.all-post-txt {
+  margin-left: 115px;
+}
+.post-text {
+  font-size: 15px;
+}
+.first-name, .last-name, .email-add, .phone-num {
+  background-color: white;
+  border: 1px solid rgb(46,48,47);
+  padding: 5px 3px 5px 3px;
+}
+.subBtn {
+  text-decoration: none;
+  border: 1px solid rgb(46,48,47);
+  color: rgb(46,48,47);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: white;
+  transition: background-color 0.5s;
+}
+.subBtn:hover {
+  background-color: rgb(101,124,111);
+  color: white;
+}
+.minusBtn, .plusBtn {
+  background-color: white;
+  border: 1px solid rgb(46,48,47);
+  padding: 1px 4px 1px 4px;
+}
+.addCart-btn {
+  background-color: rgb(101,124,111);
+   color: white;
+   border: none;
+}
+.modal-img {
+  width: 350px;
+  height: 450px;
+}
+.email-input {
+  border: none;
+}
+.login {
+  text-decoration: none;
+  border: none;
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: rgb(101,124,111);
+  transition: opacity 0.2s;
+  border-radius: 3px;
+}
+.login:hover {
+  opacity: 0.8;
+}
+.forgot-pass {
+  color: rgb(46,48,47);
+}
+.no-acc {
+  color: rgba(0, 0, 0, 0.6);
+}
+.create-acc-link {
+  color: rgb(46,48,47);
+}
+.signup-btn {
+  background-color: rgb(101,124,111);
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  border-radius: 30px;
+}
+.form-req {
+  color: red;
+}
+.options {
+  display: inline;
+}
+.hide-options {
+ display: none;
+}
+.card-div {
+  position: absolute;
+  z-index: 1;
+  top: 100px;
+  right: 200px;
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  background-color: #2E302F;
+  border-radius: 5px;
+}
+.fa-box-open, .fa-right-from-bracket {
+  color: white;
+}
+.order-link, .logout-link {
+  color: white;
+}
+.remove-item, .span  {
+  background-color: #F0F1F3;
+  border: none;
+  padding: 2px 5px 2px 5px;
+}
+.continue-btn, .fa-chevron-left {
+  color: black;
+}
+.payment-div {
+  height: 500px;
+}
+.payment-container {
+  background-color: #F0F1F3;
+  border-radius: 5px;
+}
+.cont {
+  height: 866px;
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-div {
+  background-color: rgb(101,124,111);
+}
+.login-inputs {
+  background-color: white;
+  border-radius: 5px;
+}
+.login-Adminbtn {
+  background-color: rgb(101,124,111);
+  color: white;
+  border-radius: 3px;
+  border: none;
+}
+.admin-nav {
+  height: 868px;
+}
+.nav-container {
+  background-color: rgb(101,124,111);
+
+}
+.nav-links {
+  text-decoration: none;
+  color: white;
+}
+.count-card {
+  background-color: rgb(101,124,111);
+  border-radius: 5px;
+}
+.HALO {
+  width: 1500px;
+}
+
+.delete-btn {
+
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+
+}
+.prod-cont {
+  width: 1300px;
+}
+.product-text {
+  padding: 50px;
+}
+.add-prod {
+   width: 1500px;
+}
+.selected-img {
+  border-radius: 100px;
+}
+.upload-btn {
+  background-color: rgb(101,124,111);
+  color: white;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 5px;
+}
